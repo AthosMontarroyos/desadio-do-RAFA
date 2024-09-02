@@ -20,7 +20,6 @@ while(tabela < final) {
     var tabela = numeroproxterior1
     var numeroanterior = numeroanterior1
     var numeroproxterior = numeroproxterior1
-    var tabela = numeroproxterior1
     console.log(`${tabela}`)
 } 
 
