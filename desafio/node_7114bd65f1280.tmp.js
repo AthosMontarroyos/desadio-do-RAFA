@@ -1,6 +1,9 @@
 var primeiro = 0
 var final = 100
 console.log(`${final}`)
+let numero1 = 0
+let numero2 = 1
+var tabela = numero1 + numero2
 if (final <= 0) {
     alert('[ERROR]')
 } else if (final == null){
