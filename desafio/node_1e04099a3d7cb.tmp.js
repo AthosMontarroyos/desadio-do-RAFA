@@ -8,7 +8,7 @@ if (final <= 0) {
     alert('[ERROR]')
 } else if (final == null){
     alert('[ERROR]') }
-while(tabela < 100) {
+while(tabela < final) {
     var numeroanterior = 0
     var numeroproxterior = 1
     var tabela = numeroanterior + numeroproxterior
