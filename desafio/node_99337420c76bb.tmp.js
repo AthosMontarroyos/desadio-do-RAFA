@@ -11,7 +11,6 @@ if (final <= 0) {
 while(tabela < final) {
     var numeroanterior = 0
     var numeroproxterior = 1
-    var numeroanterior = 1
     
     let numeroproxterior1 = numeroanterior + numeroproxterior
     let numeroanterior1 = numeroproxterior
