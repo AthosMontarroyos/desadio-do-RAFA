@@ -7,10 +7,14 @@ var tabela = numero1 + numero2
 if (final <= 0) {
     alert('[ERROR]')
 } else if (final == null){
-    alert('[ERROR]')
-}    else {
+    alert('[ERROR]') }
 while(tabela < final) {
     var numeroanterior = 0
     var numeroproxterior = 1
+    
+    let numeroproxterior1 = numeroanterior + numeroproxterior
+    let numeroanterior1 = numeroproxterior
+    var tabela = numeroproxterior1
+    console.log(`${tabela}`)
 } 
-}
+
