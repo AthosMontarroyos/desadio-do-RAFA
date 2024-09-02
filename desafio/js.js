@@ -11,16 +11,13 @@ if (final <= 0) {
 while(tabela < final) {
     var numeroanterior = 0
     var numeroproxterior = 1
-    var numeroanterior = 1
-    
-    let numeroproxterior1 = numeroanterior + numeroproxterior
-    //2
+    var tabela = numeroanterior + numeroproxterior
     let numeroanterior1 = numeroproxterior
-    //1
-    var tabela = numeroproxterior1
-    var numeroanterior = numeroanterior1
+    let numeroproxterior1 = tabela
+    console.log(`${numeroproxterior1}`)
     var numeroproxterior = numeroproxterior1
-    var tabela = numeroproxterior1
+    var numeroanterior = numeroanterior1
+    var tabela = numeroanterior + numeroproxterior
     console.log(`${tabela}`)
 } 
 
