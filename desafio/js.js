@@ -7,13 +7,12 @@ if (final <= 0) {
 }
 var anterior = 0
 var tabela = 1
-do {
-    //alert(`${tabela}`)
-    var numero1 = ''
-    var numero2 = ''
-    var soma = numero1 + numero2
-    var numero1 = anterior
-    var numero2 = soma
-    var tabela = numero2
-    console.log(`${tabela}`)
+do { console.log(`${tabela}`)
+    var calculo = valor1 + valor2
+    var valor1 = anterior //1
+    var valor2 = tabela //1
+    var anterior = tabela
+    var tabela = calculo
+
+    
    }  while (tabela < final)

@@ -5,15 +5,11 @@ if (final <= 0) {
 } else if (final == null){
     alert('[ERROR]')
 }
-var anterior = 0
-var tabela = 1
 do {
-    //alert(`${tabela}`)
-    var numero1 = ''
-    var numero2 = ''
-    var soma = numero1 + numero2
-    var numero1 = anterior
-    var numero2 = soma
-    var tabela = numero2
+    var anterior = 0
+    var tabela = 1
+    var calculo = anterior + tabela
+    anterior = tabela
+    tabela = calculo
     console.log(`${tabela}`)
    }  while (tabela < final)
